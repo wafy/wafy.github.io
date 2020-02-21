@@ -35,3 +35,14 @@ s 또는 squash를 입력 한후 vim 에디터 종료
 ```
 git push origin --force
 ```
+
+rebase 작업중 꼬인것을 다시 설정하는 방법
+```
+git rebase --abort
+git reset --hard upstream/develop
+git cherry-pick [head]
+git diff
+git cherry-pick --continue
+git show head
+git push origin ~~~
+```
