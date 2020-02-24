@@ -31,10 +31,11 @@ git rebase -i 1615fad(합치고 싶은 커밋의 부모 HEAD 값
 
 vim  에디터 창에서 이 나오고 합치고 싶은 commit 메세지 앞에
 s 또는 squash를 입력 한후 vim 에디터 종료
+이종립님의 단축키가 설정되어있따면
+```
+git push origin `git b0` -f
+```
 
-```
-git push origin --force
-```
 
 rebase 작업중 꼬인것을 다시 설정하는 방법
 ```
