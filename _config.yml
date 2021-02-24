@@ -1,16 +1,14 @@
 # Site settings
-title: 기계인간 John Grib
-url: "https://johngrib.github.io"
+title: 에그머니나 블로그
+url: "https://wafy.github.io"
 baseurl: ""
 description: >
-    기계인간 블로그
+    최선혁 블로그
 
 # My information
-email: johngrib82@gmail.com
-author: 기계인간 John Grib
-profile: 유물론자
-twitter_username: John_Grib
-github_username: johngrib
+email: wafy75@gmail.com
+author: 최선혁
+github_username: wafy
 comment-support: utterances
 
 # Build settings
@@ -38,10 +36,10 @@ collections:
 
 # Comment Service
 disqus:
-  id: johngrib
-  shortname: johngrib
+  id: wafy
+  shortname: wafy
 utterances:
-  repo: johngrib/johngrib.github.io
+  repo: wafy/wafy.github.io
   issue-term: pathname
   label: Comment
   branch: master
@@ -52,9 +50,9 @@ google_analytics:
 google_adsense:
   client: ca-pub-3675948545737694
 
-blame: "https://github.com/johngrib/johngrib.github.io/blame/master/_wiki"
-edit: "https://github.com/johngrib/johngrib.github.io/edit/master/_wiki"
-issue: "https://github.com/johngrib/johngrib.github.io/issues/new"
+blame: "https://github.com/wafy/wafy.github.io/blame/master/_wiki"
+edit: "https://github.com/wafy/wafy.github.io/edit/master/_wiki"
+issue: "https://github.com/wafy/wafy.github.io/issues/new"
 
 timezone: "Asia/Seoul"
 
