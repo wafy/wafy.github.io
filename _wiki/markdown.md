@@ -2,11 +2,13 @@
 layout  : wiki
 title   : 마크다운사용
 summary : 마크다운의 사용법을 정리해본다
-updated : 2020-1-08 13:03:30 +0900
+updated : 2021-02-25 09:00:35 +0900
 toc     : true
 comment : false
 public  : true
 ---
+
+[[vimwiki]]
 
 마크다운 사용법
 ======
@@ -20,7 +22,6 @@ public  : true
 ```
 -------
 ```
-
 - 작은제목: 부제목
 ```
 # H1
