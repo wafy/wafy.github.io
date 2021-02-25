@@ -1,9 +1,9 @@
 # Site settings
-title: 최선혁의 블로그
+title: 라이언 블로그
 url: "https://wafy.github.io"
 baseurl: ""
 description: >
-    최선혁의 블로그
+    라이언 블로그
 
 # My information
 email: wafy75@gmail.com
