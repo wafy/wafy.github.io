@@ -14,3 +14,11 @@ markdown:
     url: /wiki/markdown
     updated: '2021-02-25 09:00:35 +0900'
     children: []
+Terminal:
+    type: wiki
+    title: Terminal
+    summary: 터미널
+    parent: ""
+    url: /wiki/Terminal
+    updated: '2021-02-25 14:18:39 +0900'
+    children: []

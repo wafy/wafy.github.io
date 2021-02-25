@@ -1,1 +1,6 @@
-{}
+'terminal,':
+    - {fileName: Terminal}
+'fzf,':
+    - {fileName: Terminal}
+fav:
+    - {fileName: Terminal}

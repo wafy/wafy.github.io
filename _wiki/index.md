@@ -15,6 +15,11 @@ regenerate: true
 
 [[ArrayList]]
 
+
+##
+[[Terminal.md]]
+
+
 ---
 
 ## blog posts
