@@ -34,3 +34,20 @@ public class MaxNumber {
 
 }
 ```
+
+### 주어진 배열의 값들을 오른쪽으로 한칸식 (shift) 하고 마지막 정수는 배열의 첫칸으로 이동하라
+```java
+  public static void main(String[] args) {
+    int[] nums = new int[]{1,2,3,4,5};
+
+    int lastNum = nums[nums.length - 1];
+    for (int i = nums.length - 2; i >=0 ; i--) {
+      nums[i+1] = nums[i];
+    }
+    nums[0] = lastNum;
+
+    for (int num : nums) {
+      System.out.println(num);
+    }
+  }
+```
