@@ -1,3 +1,11 @@
+algorism1:
+    type: wiki
+    title: 알고리즘
+    summary: 알고리즘
+    parent: ""
+    url: /wiki/algorism1
+    updated: '2021-02-26 17:11:06 +0900'
+    children: []
 index:
     type: wiki
     title: wiki
@@ -21,4 +29,12 @@ Terminal:
     parent: ""
     url: /wiki/Terminal
     updated: '2021-02-25 14:18:39 +0900'
+    children: []
+Variable:
+    type: wiki
+    title: '자바 변수'
+    summary: '변수에 대한 정리'
+    parent: ""
+    url: /wiki/Variable
+    updated: '2021-02-26 12:38:34 +0900'
     children: []

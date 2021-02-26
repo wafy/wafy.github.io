@@ -19,7 +19,13 @@ regenerate: true
 ##
 [[Terminal.md]]
 
+## Variable
 
+[[Variable]]
+
+## Algorism1
+
+[[algorism1]]
 ---
 
 ## blog posts

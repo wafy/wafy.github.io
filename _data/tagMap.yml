@@ -4,3 +4,5 @@
     - {fileName: Terminal}
 fav:
     - {fileName: Terminal}
+변수:
+    - {fileName: Variable}
