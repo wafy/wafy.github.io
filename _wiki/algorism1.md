@@ -3,7 +3,7 @@ layout  : wiki
 title   : 알고리즘
 summary : 알고리즘
 date    : 2021-02-26 17:11:06 +0900
-updated : 2021-02-26 17:11:06 +0900
+updated : 2021-02-27 21:51:05 +0900
 tag     : 
 toc     : true
 public  : true
@@ -37,7 +37,7 @@ latex   : false
 
     int lastNum = nums[nums.length - 1];
     for (int i = nums.length - 2; i >=0 ; i--) {
-      nums[i+1] = nums[i];
+      nums[i+1] = nums[i];라
     }
     nums[0] = lastNum;
 
@@ -87,3 +87,5 @@ latex   : false
       System.out.println(count);
     }
 ```
+
+##### n개의 음이 아닌 한자리 정수를 입력받아 배열에 저장한 후 이들 중에서 1개 이상의 연속된 정수들을 합아여 얻을 수 있는 소수들 중에서 최댓값을 출력하라
