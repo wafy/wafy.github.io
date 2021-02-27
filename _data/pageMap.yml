@@ -6,6 +6,14 @@ algorism1:
     url: /wiki/algorism1
     updated: '2021-02-27 21:51:05 +0900'
     children: []
+funtional-interface:
+    type: wiki
+    title: ""
+    summary: ""
+    parent: ""
+    url: /wiki/funtional-interface
+    updated: '2021-02-27 22:17:45 +0900'
+    children: []
 index:
     type: wiki
     title: wiki
