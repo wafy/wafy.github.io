@@ -39,13 +39,13 @@ disqus:
   id: wafy
   shortname: wafy
 utterances:
-  repo: wafy/wafy.github.io
+  repo: wafy/comment
   issue-term: pathname
   label: Comment
   branch: master
 
 google_analytics:
-  ua: UA-110224147-1
+  ua: G-30CPFGTEV0
 
 google_adsense:
   client: ca-pub-3675948545737694
