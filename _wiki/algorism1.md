@@ -3,7 +3,7 @@ layout  : wiki
 title   : 알고리즘
 summary : 알고리즘
 date    : 2021-02-26 17:11:06 +0900
-updated : 2021-02-27 21:51:05 +0900
+updated : 2021-02-28 17:22:36 +0900
 tag     : 
 toc     : true
 public  : true
@@ -89,3 +89,48 @@ latex   : false
 ```
 
 ##### n개의 음이 아닌 한자리 정수를 입력받아 배열에 저장한 후 이들 중에서 1개 이상의 연속된 정수들을 합아여 얻을 수 있는 소수들 중에서 최댓값을 출력하라
+```java
+public static void main(String[] args) {
+    Scanner kb  = new Scanner(System.in);
+    int n = kb.nextInt();
+    int[] data = new int[n];
+    for (int i = 0 ; i < n; i++) {
+      data[i] = kb.nextInt();
+    }
+    kb.close();
+
+    int maxPrime = 0;
+    for(int i = 0; i < n; i++) {
+      for(int j = i; j < n; j++) {
+        // convert data[i]....data[j] into an integer
+        // ex 1 9 4 0 7 1 3 6 2 3
+        // val = 0
+        // val = 0 * 10 + 1 = 1
+        // val = 1 * 10 + 9 = 19
+        // val = 19 * 10 + 4 = 194
+        int val = 0;
+        for (int k = i; k <= j; k++) {
+          val = val * 10 + data[k];
+        }
+        // test if is a prime
+        boolean isPrime = true;
+        for (int k=2; k*k <= val && isPrime; k++) {
+          if (val % k == 0) {
+            isPrime = false;
+          }
+        }
+
+        // if yes, compare to the max
+        if (isPrime && val > 1 && val > maxPrime) {
+          maxPrime = val;
+        }
+      }
+    }
+
+    if (maxPrime > 0) {
+      System.out.println(maxPrime);
+    } else {
+      System.out.println("No prime Number");
+    }
+  }
+```
