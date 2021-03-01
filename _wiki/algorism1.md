@@ -3,8 +3,8 @@ layout  : wiki
 title   : 알고리즘
 summary : 알고리즘
 date    : 2021-02-26 17:11:06 +0900
-updated : 2021-02-28 17:22:36 +0900
-tag     : 
+updated : 2021-03-01 16:53:04 +0900
+tag     : 알고리즘,정렬,기초 
 toc     : true
 public  : true
 parent  : 
@@ -131,6 +131,35 @@ public static void main(String[] args) {
       System.out.println(maxPrime);
     } else {
       System.out.println("No prime Number");
+    }
+  }
+```
+
+##### 사용자로부터 N개의 정수를 입력받은 후 오름차순으로 정렬하여 출력하라(버블)
+```java
+public static void main(String[] args) {
+    Scanner kb = new Scanner(System.in);
+    int n = kb.nextInt();
+    int[] data = new int[n];
+    for(int i=0; i<n; i++) {
+      data[i] = kb.nextInt();
+    }
+    kb.close();
+
+    for (int i=n-1; i>0 ; i--) {
+      // data[0]...data[i]
+      for (int j=0; j<i; j++) {
+        if (data[j] > data[j+1]) {
+          // swap data[j] and data[j+1]
+          int tmp = data[j];
+          data[j] = data[j+1];
+          data[j+1] = tmp;
+        }
+      }
+    }
+    System.out.println("Sorted data");
+    for (int i : data) {
+      System.out.println(i);
     }
   }
 ```
