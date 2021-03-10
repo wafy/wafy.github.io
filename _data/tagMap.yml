@@ -1,5 +1,9 @@
 '알고리즘,정렬,기초':
     - {fileName: algorism1}
+'빅오,':
+    - {fileName: bigo}
+bigo:
+    - {fileName: bigo}
 '정렬,':
     - {fileName: java_sort}
 '값비교,':

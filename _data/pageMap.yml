@@ -6,6 +6,14 @@ algorism1:
     url: /wiki/algorism1
     updated: '2021-03-01 16:53:04 +0900'
     children: []
+bigo:
+    type: wiki
+    title: 빅오(Big-O)표기법
+    summary: 빅오표기법
+    parent: ""
+    url: /wiki/bigo
+    updated: '2021-03-09 17:27:04 +0900'
+    children: []
 funtional-interface:
     type: wiki
     title: ""
