@@ -1,3 +1,11 @@
+algorism_doit:
+    type: wiki
+    title: '알로리즘 문제풀이'
+    summary: '간단한 알고리즘을 익히자'
+    parent: ""
+    url: /wiki/algorism_doit
+    updated: '2021-03-10 20:46:02 +0900'
+    children: []
 algorism1:
     type: wiki
     title: 알고리즘
@@ -13,6 +21,14 @@ bigo:
     parent: ""
     url: /wiki/bigo
     updated: '2021-03-10 20:35:43 +0900'
+    children: []
+digits:
+    type: wiki
+    title: 진수
+    summary: '진수를 정리합니다.'
+    parent: ""
+    url: /wiki/digits
+    updated: '2021-03-16 13:11:59 +0900'
     children: []
 funtional-interface:
     type: wiki
