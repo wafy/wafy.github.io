@@ -3,7 +3,7 @@ layout  : wiki
 title   : String 클래스 
 summary : Java String 클래스의 대해서 정리하자
 date    : 2021-03-16 15:15:58 +0900
-updated : 2021-03-16 16:17:30 +0900
+updated : 2021-03-17 10:47:05 +0900
 tag     : String
 toc     : true
 public  : true
@@ -35,7 +35,17 @@ char charAt(int i) // 인덱스가i인 곳의 문자를 가져옵니다.
 int length() //문자열의 문자 수를 가져옵니다.
 boolean equals(String s) //문자열의 s와 같은가를 조사합니다.
 ```
+## 문자열을 기본값으로 바꾸는 방법
 
+| 기본형->문자열            | 문자열->기본형                       |
+|---------------------------|--------------------------------------|
+| String valueOf(boolean b) | boolean Boolean.getBoolean(String s) |
+| String valueOf(char c)    | char Charactor.charValue(String s)   |
+| String valueOf(byte i)    | byte Byte.parseByte(String s)        |
+| String valueOf(long i)    | long Long.parseLong(String s)        |
+| String valueOf(float f)   | float Float.parseFloat(String s)     |
+| String valueOf(double d)  | double Double.parseDouble(String s)  |
+ 
 
 ## 참고문헌
 
