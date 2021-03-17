@@ -10,6 +10,8 @@ bigo:
     - {fileName: java_sort}
 equals:
     - {fileName: java_sort}
+object:
+    - {fileName: Object}
 'static,':
     - {fileName: static}
 java:
