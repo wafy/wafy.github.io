@@ -62,6 +62,14 @@ markdown:
     url: /wiki/markdown
     updated: '2021-02-25 09:00:35 +0900'
     children: []
+Mysql_index:
+    type: wiki
+    title: 'mysql index란'
+    summary: 'mysql index'
+    parent: ""
+    url: /wiki/Mysql_index
+    updated: '2021-03-18 09:44:07 +0900'
+    children: []
 Object:
     type: wiki
     title: 'Object 클래스'
