@@ -7,6 +7,35 @@ comment : false
 regenerate: true
 ---
 
+## 등차 수열
+[[Arithmetic_Sequence]]
+
+
+[[Coding_Test_With_Python3-3]]
+
+## arrayList
+[[ArrayList]]
+
+
+## index 
+[[Mysql_index]]
+## Object
+[[object]]
+
+## String
+[[String]]
+
+
+## 진수
+[[digits]]
+
+##
+[[algorism_doit]]
+## bigo
+[[bigo]]
+## static
+[[static]]
+
 ## How to
 
 - [[markdown]]
@@ -26,7 +55,10 @@ regenerate: true
 ## Algorism1
 
 [[algorism1]]
----
+[[---]]
+
+## Java Sort
+[[java_sort]]
 
 ## blog posts
 <div>

@@ -14,6 +14,22 @@ algorism1:
     url: /wiki/algorism1
     updated: '2021-03-01 16:53:04 +0900'
     children: []
+Arithmetic_Sequence:
+    type: wiki
+    title: 등차수열
+    summary: 수학
+    parent: ""
+    url: /wiki/Arithmetic_Sequence
+    updated: '2021-04-01 21:59:31 +0900'
+    children: []
+ArrayList:
+    type: wiki
+    title: 'Java의 ArrayList에 대하여'
+    summary: arrayList
+    parent: ""
+    url: /wiki/ArrayList
+    updated: '2021-03-30 15:02:39 +0900'
+    children: []
 bigo:
     type: wiki
     title: 빅오(Big-O)표기법
