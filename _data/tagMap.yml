@@ -6,12 +6,17 @@ bigo:
     - {fileName: bigo}
 '정렬,':
     - {fileName: java_sort}
+    - {fileName: Selection_Sort}
 '값비교,':
     - {fileName: java_sort}
 equals:
     - {fileName: java_sort}
 object:
     - {fileName: Object}
+'알고리즘,':
+    - {fileName: Selection_Sort}
+sort:
+    - {fileName: Selection_Sort}
 'static,':
     - {fileName: static}
 java:
@@ -24,5 +29,9 @@ String:
     - {fileName: Terminal}
 fav:
     - {fileName: Terminal}
+'자료구조,':
+    - {fileName: Tree}
+tree:
+    - {fileName: Tree}
 변수:
     - {fileName: Variable}

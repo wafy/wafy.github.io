@@ -94,6 +94,14 @@ Object:
     url: /wiki/Object
     updated: '2021-03-18 07:52:12 +0900'
     children: []
+Selection_Sort:
+    type: wiki
+    title: '선택 정렬(Selection Sort)'
+    summary: '알고리즘 선택정렬'
+    parent: ""
+    url: /wiki/Selection_Sort
+    updated: '2021-04-19 19:57:04 +0900'
+    children: []
 static:
     type: wiki
     title: static
@@ -117,6 +125,14 @@ Terminal:
     parent: ""
     url: /wiki/Terminal
     updated: '2021-02-25 14:18:39 +0900'
+    children: []
+Tree:
+    type: wiki
+    title: 'tree란?'
+    summary: tree
+    parent: ""
+    url: /wiki/Tree
+    updated: '2021-04-06 18:17:02 +0900'
     children: []
 Variable:
     type: wiki
